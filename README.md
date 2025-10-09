@@ -1,0 +1,1 @@
+# qdy_bot_manual
