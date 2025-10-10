@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 https://github.com/EU65/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
 
 ## 内核常见问题
-写在前面：如果有一些术语或简单操作，例如怎么用fastboot刷img、怎么解锁和回锁，请先到酷安等平台搜索学习，ChatGPT、Deepseek等AI可能也能帮到你，群友没有义务为你回答这些解锁前理应自学掌握的知识，询问太低级的问题可能被禁言一天。  
+写在前面：如果有一些术语或简单操作你不了解，例如怎么用fastboot刷img、怎么解锁和回锁，请先到酷安等平台搜索学习，ChatGPT、Deepseek等AI可能也能帮到你，群友没有义务为你回答这些解锁前理应自学掌握的知识，询问太低级的问题可能被禁言一天。  
 
 1.内核什么时候更新的，sukisu版本是什么？  
 关注[频道内消息](https://t.me/qdyKernel)，每次内核更新都会在频道内发更新日志，没发就代表没有更新。  
@@ -94,3 +94,6 @@ https://github.com/EU65/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
 ### 固件提取工具
 [payload-dumper](https://github.com/5ec1cff/payload-dumper) -一个用于从全量包里面提取boot等分区映像的工具，支持直接从上述两个全量包获取网站给出的链接提取，无需下载完整全量包   
 [FastbootEnhance](https://github.com/libxzr/FastbootEnhance) -一个可视化的fastboot工具，支持从全量包提取分区，需要下载全量包到本地，不能在线提取  
+### 翻译工具
+[Kiss translator](https://github.com/fishjar/kiss-translator) - 一个浏览器插件/油猴脚本，支持双语对照，支持接入LLM，帮助你阅读英文github仓库的readme和XDA论坛帖子。  
+[Pot](https://github.com/pot-app/pot-desktop) - 一个PC端划词翻译或OCR翻译软件，支持LLM。
