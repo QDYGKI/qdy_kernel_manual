@@ -1,7 +1,6 @@
 # 秋刀鱼内核用户手册  
 
 ---
----
 
 ## 秋刀鱼内核适用范围  
 - **品牌**：一加、真我  
@@ -42,7 +41,8 @@ BwRaWFcMFVlnhdzhiufBSTIKCEFRQTafDmMjIj9QVVEwXFRHQ0ddT1xWX0UiJ0NYRA==
 ## 视频演示
 
 
-https://github.com/user-attachments/assets/3b88d7e2-f3a9-46fc-ab45-bad707851a12
+https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 
-https://github.com/NAU2/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
+
+https://github.com/EU65/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
 
