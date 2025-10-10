@@ -67,6 +67,8 @@ https://github.com/EU65/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
 不能，防格机针对已知的格机手段尽可能实现了最大保护，但安全性与便捷性永远也不可能平衡，为了不对用户的正常操作产生干扰，防格机仍然存在少数绕过方式，请自行甄别运行的程序和脚本的可信度。  
 8.如何验证防格机是否生效？  
 使用[自检脚本](https://github.com/QDYGKI/LSM-test-scripts)测试。  
+9.内核需要与管理器版本匹配吗？  
+不需要。你可以选择从Sukisu的Release中下载稳定版管理器，也可以从SukiSU或秋刀鱼频道下载bot发送的CI版，遇到问题了就切换一下稳定版/CI版，内核与管理器版本并不需要一致，也不是每个内核都有对应小版本的管理器。  
 
 ## bot常见问题
 
