@@ -70,4 +70,10 @@ https://github.com/EU65/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
 
 ## bot常见问题
 
-## 常用工具
+## 常用工具链接
+### 官方固件下载
+[大侠阿木云盘](https://yun.daxiaamu.com/OnePlus_Roms/) -提供一加等品牌原厂全量包  
+微信小程序 One+更新 -提供提供一加等品牌原厂全量包 
+### 固件提取工具
+[payload-dumper](https://github.com/5ec1cff/payload-dumper) -一个用于从全量包里面提取boot等分区映像的工具，支持直接从上述两个全量包获取网站给出的链接提取，无需下载完整全量包   
+[FastbootEnhance](https://github.com/libxzr/FastbootEnhance) -一个可视化的fastboot工具，支持从全量包提取分区，需要下载全量包到本地，不能在线提取  
