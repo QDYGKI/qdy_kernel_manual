@@ -35,6 +35,8 @@ BwRaWFcMFVlnhdzhiufBSTIKCEFRQTafDmMjIj9QVVEwXFRHQ0ddT1xWX0UiJ0NYRA==
 设备码理论上只需要获取一次，后续获取内核时可以先发送 `/download` 指令，再复制粘贴发送之前聊天记录中的设备码给bot，无需再次到MT管理器执行命令获取。
 使用bot时务必遵循发送 `/download` 指令、发送设备码的顺序。如果连发两次指令或者连发两次设备码，bot不会回应。
 
+**相同设备每两小时只能从bot获取一次内核。**
+
 ---
 
 ## 视频演示
