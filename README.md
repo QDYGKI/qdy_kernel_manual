@@ -40,7 +40,7 @@ BwRaWFcMFVlnhdzhiufBSTIKCEFRQTafDmMjIj9QVVEwXFRHQ0ddT1xWX0UiJ0NYRA==
 ## 视频演示
 https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 
-（未压缩）https://github.com/QDYGKI/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
+（未压缩）https://github.com/QDYGKI/qdy_kernel_manual/raw/refs/heads/main/media/video_guide.mp4
 
 ## 常见问题解答
 写在前面：如果有一些术语或简单操作你不了解，例如怎么用fastboot刷img、怎么解锁和回锁，请先到酷安等平台搜索学习，ChatGPT、Deepseek等AI可能也能帮到你，管理员或群友没有义务为你回答这些解锁前理应自学掌握的知识，询问太低级的问题可能被禁言一天。  
