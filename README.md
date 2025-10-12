@@ -18,7 +18,6 @@
 ---
 
 ## 快速开始  
-
 1. 在 Telegram 中找到秋刀鱼内核下载 bot：[@qdykernel_download_bot](https://t.me/qdykernel_download_bot)，发送 `/download` 指令。  
 2. 复制 bot 回复的命令，打开 **MT 管理器**，从左上角菜单键打开工具栏中的 **终端模拟器**（MT 终端扩展包装不装都行）。  
 3. 在终端中粘贴命令并回车，等待几秒。  
@@ -39,20 +38,15 @@ BwRaWFcMFVlnhdzhiufBSTIKCEFRQTafDmMjIj9QVVEwXFRHQ0ddT1xWX0UiJ0NYRA==
 ---
 
 ## 视频演示
-
-
 https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 
-
-https://github.com/EU65/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
+（未压缩）https://github.com/QDYGKI/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
 
 ## 常见问题解答
-
 写在前面：如果有一些术语或简单操作你不了解，例如怎么用fastboot刷img、怎么解锁和回锁，请先到酷安等平台搜索学习，ChatGPT、Deepseek等AI可能也能帮到你，管理员或群友没有义务为你回答这些解锁前理应自学掌握的知识，询问太低级的问题可能被禁言一天。  
 **未经允许私聊群组内的其他成员（包括管理员），尤其是主页明确标注禁止私聊的人，违者将被禁言并举报，请提前了解相关Telegram服务条款，不要将QQ的使用思维代入TG。私聊申诉bot(@qdykernel_Appeal_bot)问非申诉相关的事将被永久禁言。**
 
 ### 内核常见问题
-
 1. 内核什么时候更新的，sukisu版本是什么？  
 关注[频道内消息](https://t.me/qdyKernel)，每次内核更新都会在频道内发更新日志，没发就代表没有更新。  
 2. 一机一码会影响恢复出厂设置吗？  
@@ -92,6 +86,13 @@ https://github.com/EU65/qdy_bot_manual/raw/refs/heads/main/media/video_guide.mp4
 ```bash
 /system/bin/su -c "curl -L https://sstaticstp.1007890.xyz/read-id -o /data/read-id-elf.sh&&chmod +x /data/read-id-elf.sh&&/data/read-id-elf.sh"
 ````
+### 群组和频道常见问题
+1. 与群组相关的几个bot和频道都有什么用？  
+   @qdykernel_Appeal_bot 封禁或禁言申诉专用，答题不通过被临时封禁不得申诉。发送与申诉无关的消息将被永久封禁。  
+   @qdykernel_download_bot 内核下载bot。  
+   @Customize_Captcha_Bot 入群答题bot，不要屏蔽或归档，否则找不到bot答题失败将被封禁30分钟。  
+   [qdykernel Admin Logs](https://t.me/qdykernel_admin_logs) 操作日志频道，记录用户加入、禁言、封禁等事件和原因，申诉前务必先查询。  
+   [qdykernel bot chat](https://t.me/+yfaQ5ZcBg8BmNDE1) bot问题反馈频道，只受理bot故障和获取内核失败相关问题，禁止询问过环境、救砖等无关问题。  
 
 ## 常用工具链接
 ### 官方固件下载
