@@ -6,9 +6,7 @@
 - **品牌**：一加、真我  
 - **处理器**：骁龙8至尊版、天玑9400+  
 - **内核版本**：6.6.X  
-- **系统**：ColorOS OxygenOS Realme（第三方系统可能无法获取设备码）  
-
-**特例：Ace5至尊版_610系统请勿使用，真我GT7、GT7Pro(含竞速版)_660及以上系统请勿使用否则无限重启**
+- **系统**：ColorOS OxygenOS Realme. 20251101更新:已适配ColorOS16，但使用前请确保fastboot模式正常且具有救砖能力. 锁fastboot就不要用了.
 
 ---
 
@@ -73,6 +71,8 @@ https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 使用[自检脚本](https://github.com/QDYGKI/LSM-test-scripts)测试。  
 9. 内核需要与管理器版本匹配吗？  
 不需要。你可以选择从Sukisu的Release中下载稳定版管理器，也可以从SukiSU或秋刀鱼频道下载bot发送的CI版，遇到问题了就切换一下稳定版/CI版，内核与管理器版本并不需要一致，也不是每个内核都有对应小版本的管理器。   
+10. 管理器右上角不显示susfs管理菜单按钮？    
+从SukiSU Ultra群组的测试构建子频道或Github Action下载最新CI版管理器，稳定版管理器暂不支持最新susfs。 
 
 ### bot常见问题
 1. 为什么下载时 bot 提示“你已达到最大设备限制，如果你确实需要更多设备，请联系管理员”  
