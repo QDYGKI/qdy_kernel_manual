@@ -6,7 +6,7 @@
 - **品牌**：一加、真我  
 - **处理器**：骁龙8至尊版、天玑9400+  
 - **内核版本**：6.6.X  
-- **系统**：ColorOS OxygenOS Realme. 20251101更新:已适配ColorOS16，但使用前请确保fastboot模式正常且具有救砖能力. 锁fastboot就不要用了.
+- **系统**：ColorOS OxygenOS Realme. 20251101更新:已适配ColorOS16，但使用前请确保fastboot模式正常且具有救砖能力. 锁fastboot就不要用了. 一加平板2pro 系统版本小于15.0.1.600的禁止刷入，否则不开机.
 
 ---
 
