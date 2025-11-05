@@ -79,7 +79,7 @@ https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 12. 内核支持风驰吗？为什么我打开游戏调速器不切换？   
 内核支持风驰，但风驰具体是否有效需要用户空间配合，需要游戏和游戏模式受支持且游戏助手运行正常网络正常相关域名未被屏蔽。风驰是否有效是内核、OEM驱动、游戏助手共同决定的。不要相信所谓的全局风驰模块能给不支持风驰的游戏和设备带来实质性效果。     
 13. 为什么加载nohello、Cherish Peekaboo等隐藏用途的KPM后黑屏死机？    
-SukiSU移植的KPM并不兼容所有Apatch KPM，尤其是隐藏用途的KPM。
+SukiSU移植的KPM来源于bmax121/KernelPatch但并不兼容所有Apatch KPM，尤其是隐藏用途的KPM。
 
 ### bot常见问题
 1. 为什么下载时 bot 提示“你已达到最大设备限制，如果你确实需要更多设备，请联系管理员”  
@@ -117,3 +117,8 @@ SukiSU移植的KPM并不兼容所有Apatch KPM，尤其是隐藏用途的KPM。
 ### 翻译工具
 [Kiss translator](https://github.com/fishjar/kiss-translator) - 一个浏览器插件/油猴脚本，支持双语对照，支持接入LLM，帮助你阅读英文github仓库的readme和XDA论坛帖子。  
 [Pot](https://github.com/pot-app/pot-desktop) - 一个PC端划词翻译或OCR翻译软件，支持LLM。
+### 相关仓库地址     
+[susfs4ksu](https://gitlab.com/simonpunk/susfs4ksu)      
+[SukiSU Ultra](https://github.com/SukiSU-Ultra/SukiSU-Ultra)     
+[OnePlus Open Source Software](https://github.com/oneplusoss) -一加内核开源地址（组织）   
+[kernel_manifest](https://github.com/OnePlusOSS/kernel_manifest) -一加内核开源地址（清单）一般在这里提issue催一加开源新版本      
