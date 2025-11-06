@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 5. GKI如何OTA保root?  
 注:由于OPPO系统bug太多，强烈不建议OTA后将Anykernel3包刷到另一槽位然后重启  
 当系统更新安装完成但尚未重启之前，从Sukisu管理器的安装按钮选择LKM 修补/安装 - 安装到未使用的槽位，然后使用OPPO系统更新内的重启按钮，不要点Sukisu管理器的重启。  
-成功开机后再刷入Anykernel3内核转到GKI模式。（刷AK3之前并不需要还原原厂init_boot.img或卸载LKM。因为可以共存且GKI优先级更高，刷入GKI内核后LKM模式会被忽略）  
+成功开机后再刷入Anykernel3内核转到GKI模式。（如果之前使用的是lkm模式，刷入ak3后应还原原厂init_boot，因为ksu1.0到ksu2.0有较大改动，若1.0的lkm和2.0的built-in共存可能不开机）  
 6. 我不想玩机了，怎么回锁？  
 使用系统更新的本地安装功能刷两遍最新系统全量包，刷完一遍，重启，再本地更新一遍，确保两个槽都是官方系统，然后再到fastboot回锁。  
 7. 防格机能百分比保护我的基带和ocdt吗？  
@@ -79,7 +79,11 @@ https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 12. 内核支持风驰吗？为什么我打开游戏调速器不切换？   
 内核支持风驰，但风驰具体是否有效需要用户空间配合，需要游戏和游戏模式受支持且游戏助手运行正常网络正常相关域名未被屏蔽。风驰是否有效是内核、OEM驱动、游戏助手共同决定的。不要相信所谓的全局风驰模块能给不支持风驰的游戏和设备带来实质性效果。     
 13. 为什么加载nohello、Cherish Peekaboo等隐藏用途的KPM后黑屏死机？    
-SukiSU移植的KPM来源于bmax121/KernelPatch但并不兼容所有Apatch KPM，尤其是隐藏用途的KPM。
+SukiSU移植的KPM来源于bmax121/KernelPatch但并不兼容所有Apatch KPM，尤其是隐藏用途的KPM。   
+14. SukiSU能和Magisk等其他root方案共存吗？   
+基本上不能，SukiSU可能只与Apatch共存成功过，且不是一定能共存。    
+15. 如何在KSU、Apatch、SukiSU之间互转？      
+对于built-in模式，可以直接刷另一个root方案的anykernel3（转到Apatch需要先还原原厂boot），但如果挂载方式改变，需要先卸载所有模块，否则切换后可能出现bug。     
 
 ### bot常见问题
 1. 为什么下载时 bot 提示“你已达到最大设备限制，如果你确实需要更多设备，请联系管理员”  
