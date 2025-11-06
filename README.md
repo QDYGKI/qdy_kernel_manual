@@ -84,6 +84,8 @@ SukiSU移植的KPM来源于bmax121/KernelPatch但并不兼容所有Apatch KPM，
 基本上不能，SukiSU可能只与Apatch共存成功过，且不是一定能共存。    
 15. 如何在KSU、Apatch、SukiSU之间互转？      
 对于built-in模式，可以直接刷另一个root方案的anykernel3（转到Apatch需要先还原原厂boot），但如果挂载方式改变，需要先卸载所有模块，否则切换后可能出现bug。     
+16. 秋刀鱼ak3内核能否通过twrp安装？    
+能，虽然因为twrp无法打开网页导致最后出现红字报错，但不影响内核刷写。中文在rec环境可能显示为乱码。
 
 ### bot常见问题
 1. 为什么下载时 bot 提示“你已达到最大设备限制，如果你确实需要更多设备，请联系管理员”  
