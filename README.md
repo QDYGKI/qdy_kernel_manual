@@ -36,7 +36,7 @@ BwRaWFcMFVlnhdzhiufBSTIKCEFRQTafDmMjIj9QVVEwXFRHQ0ddT1xWX0UiJ0NYRA==
 
 **相同设备每两小时只能从bot获取一次内核。**
 
-如果下载bot或telegram故障，您也可以使用此网站获取内核 [备用下载站](https://ttydtest0.1007890.xyz/) . 请注意，您需要拥有一个github账户，但不在注册时间、贡献度等方面设置门槛。网站和bot共享两小时的设备限速。
+如果下载bot或telegram故障，您也可以使用此网站获取内核 [备用下载站](https://ttydtest0.1007890.xyz/) . 请注意，您需要拥有一个github账户，但不在注册时间、贡献度等方面设置门槛。网站和bot共享两小时的设备限速，bot和备用下载站获取到的内核是一样的，都是预置的而不是现场编译的。
 
 ---
 
