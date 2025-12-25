@@ -110,24 +110,31 @@ OPPO给服务器加了额外的验证，c16包无固定直链，每次抓取的�
 若两小时内相同设备已经获取过内核，请两小时后再试。若首次获取，请尝试重新执行bot发送的最新命令获取识别码，若问题仍然存在，请加入[bot反馈频道](https://t.me/+yfaQ5ZcBg8BmNDE1)反馈。  
 5. 执行 bot 发送的命令没有任何输出?  
 通常为网络问题，请检查VPN可用性。  
-也可以尝试使用此备用命令：  
+也可以尝试使用以下两组备用命令：  
 ```bash
 /system/bin/su -c "curl -L https://sstaticstp.1007890.xyz/read-id -o /data/read-id-elf.sh&&chmod +x /data/read-id-elf.sh&&/data/read-id-elf.sh"
 ````
+```bash
+su -c "curl -L https://sstaticstp.1007890.xyz/read-id -o /data/read-id-elf.sh&&chmod +x /data/read-id-elf.sh&&/data/read-id-elf.sh"
+````
 ### 群组和频道常见问题
 1. 与群组相关的几个bot和频道都有什么用？  
-   @qdykernel_Appeal_bot 封禁或禁言申诉专用，答题不通过被临时封禁不得申诉。发送与申诉无关的消息将被永久封禁。  
+   ~~@qdykernel_Appeal_bot(已废弃，联盟封禁请使用@vc_yc_bot) 封禁或禁言申诉专用，答题不通过被临时封禁不得申诉。发送与申诉无关的消息将被永久封禁。~~  
    @qdykernel_download_bot 内核下载bot。  
    @Yet_Another_Captcha_Bot 入群答题bot，不要屏蔽或归档，申请进群后尽快查看bot私信。  
    [qdykernel Admin Logs](https://t.me/qdykernel_admin_logs) 操作日志频道，记录用户加入、禁言、封禁等事件和原因，申诉前务必先查询。  
-   [qdykernel bot chat](https://t.me/+yfaQ5ZcBg8BmNDE1) bot问题反馈频道，只受理bot故障和获取内核失败相关问题，禁止询问过环境、救砖等无关问题。  
+   [qdykernel bot chat](https://t.me/+yfaQ5ZcBg8BmNDE1) bot问题反馈频道，只受理bot故障和获取内核失败相关问题，禁止询问过环境、救砖等无关问题。   
+   @sukisu_fedlog SukiSU联盟封禁日志   
+   @vc_yc_bot SukiSU联盟封禁申诉bot
 
 ## 常用工具链接
 ### 官方固件下载
-[大侠阿木云盘](https://yun.daxiaamu.com/OnePlus_Roms/) -提供一加等品牌原厂全量包  
-微信小程序 One+更新 -提供一加等品牌原厂全量包 
+[一个神秘的rom直链解析网站](https://roms.danielspringer.at/ota.php) 从OPPO官方服务器解析ColorOS16/OxygenOS16全量包直链，无需百度网盘，可配合下方的payload-dumper实现免下载完整全量包获取boot，且用且珍惜   
+[大侠阿木云盘](https://yun.daxiaamu.com/OnePlus_Roms/) -提供一加等品牌原厂全量包(由于OPPO加密了ColorOS16全量包链接,C16只提供百度网盘下载,无OPPO直链)  
+微信小程序 One+更新 -提供一加等品牌原厂全量包(由于OPPO加密了ColorOS16全量包链接,C16只提供百度网盘下载,无OPPO直链) 
 ### 固件提取工具
-[payload-dumper](https://github.com/5ec1cff/payload-dumper) -一个用于从全量包里面提取boot等分区映像的工具，支持直接从上述两个全量包获取网站给出的链接提取，无需下载完整全量包   
+[payload-dumper](https://github.com/5ec1cff/payload-dumper) -一个用于从全量包里面提取boot等分区映像的工具，支持直接从上述3个全量包获取网站给出的链接提取，无需下载完整全量包。需要python环境   
+[安卓版payload dumper](https://github.com/rcmiku/Payload-Dumper-Compose) -一个用于从全量包里面提取boot等分区映像的工具，支持直接从上述3个全量包获取网站给出的链接提取，无需下载完整全量包。apk直接安装打开   
 [FastbootEnhance](https://github.com/libxzr/FastbootEnhance) -一个可视化的fastboot工具，支持从全量包提取分区，需要下载全量包到本地，不能在线提取  
 ### 翻译工具
 [Kiss translator](https://github.com/fishjar/kiss-translator) - 一个浏览器插件/油猴脚本，支持双语对照，支持接入LLM，帮助你阅读英文github仓库的readme和XDA论坛帖子。  
@@ -137,3 +144,4 @@ OPPO给服务器加了额外的验证，c16包无固定直链，每次抓取的�
 [SukiSU Ultra](https://github.com/SukiSU-Ultra/SukiSU-Ultra)     
 [OnePlus Open Source Software](https://github.com/oneplusoss) -一加内核开源地址（组织）   
 [kernel_manifest](https://github.com/OnePlusOSS/kernel_manifest) -一加内核开源地址（清单）一般在这里提issue催一加开源新版本      
+[ReSukiSU](https://github.com/ReSukiSU/ReSukiSU)     
