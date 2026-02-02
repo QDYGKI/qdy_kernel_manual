@@ -1,20 +1,21 @@
 # 秋刀鱼内核用户手册  
 
 ---
+**通知：2026年2月2日起，bot下载的内核由SukiSU Ultra切换至ReSukiSU，请使用频道内给出的最新管理器，并查看[ReSukiSU官网](https://resukisu.github.io/)或[Telegram频道](https://t.me/ReSukiSU)了解详情。ReSukiSU在用户操作上与SukiSU类似，切换后无需重新配置授权应用或重新安装模块。遇到问题请勿到SukiSU Ultra反馈。**
 
 ## 秋刀鱼内核适用范围  
 - **品牌**：一加、真我  
 - **处理器**：骁龙8至尊版、天玑9400+  
 - **内核版本**：6.6.X  
-- **系统**：ColorOS OxygenOS Realme. 20251101更新:已适配ColorOS16，但使用前请确保fastboot模式正常且具有救砖能力. 锁fastboot就不要用了. 一加平板2pro 系统版本小于15.0.1.600的禁止刷入，否则不开机.
+- **系统**：Android版本16的ColorOS、RealmeUI
 
-频道偶尔也会发联想平板的或转发xiaoxiaow的内核，但bot仅支持上述条件的设备。
+频道偶尔也会发联想平板的或转发xiaoxiaow、yc、冷雨、cctv18等的内核，但bot仅支持上述条件的设备。
 
 ---
 
 ## 前提条件  
 1. 手机已有 **root 权限**（无论是 Magisk、KernelSU 还是 Apatch）。  
-2. 下载安装 [Sukisu Ultra 管理器](https://github.com/SukiSU-Ultra/SukiSU-Ultra/releases) 和 [MT 管理器](https://mt2.cn/download/) 这两个 app，并用你现在的 root 方案的管理器授予其 root 权限。  
+2. 下载安装 ReSukisu 管理器(频道内每次发布更新推送时会附上最新管理器) 和 [MT 管理器](https://mt2.cn/download/) 这两个 app，并用你现在的 root 方案的管理器授予其 root 权限。  
 3. 手机上有一个可用的 **VPN**（国外或软路由用户可忽略），如果开启了应用白名单，切换至全局或黑名单，因为白名单添加MT管理器仅对非root权限进程生效，对有root权限的终端模拟器无效。  
 
 ---
@@ -31,7 +32,7 @@ BwRaWFcMFVlnhdzhiufBSTIKCEFRQTafDmMjIj9QVVEwXFRHQ0ddT1xWX0UiJ0NYRA==
 ```
 5. 复制设备码（注意 ↓↓↓ 下方的才是设备码，不要把英文提示也复制了。设备码末尾是否有等号、有几个等号都不重要，但如果有等号一定不要漏掉），将设备码发送给 bot，等待内核上传（访问量小的情况下大概 10 秒，内核文件大小在 30Mb 左右）。  
 6. 下载内核，保存到自己能找到的路径。（不要试图解压下载的zip文件，保持原样。）
-7. 打开 **Sukisu Ultra app**，点主页上方的状态显示（显示未安装或工作中的大方框），点击 刷写AnyKernel3，选择刚才保存的zip格式的内核文件（使用系统文件选择器而不是MT管理器等第三方文件管理器），选择槽位不用动，保持默认，点确认，KPM修补保持跟随内核，点下一步。
+7. 打开 **ReSukisu app**，点主页上方的状态显示（显示未安装或工作中的大方框），点击 刷写AnyKernel3，选择刚才保存的zip格式的内核文件（使用系统文件选择器而不是MT管理器等第三方文件管理器），选择槽位不用动，保持默认，点确认，KPM修补保持跟随内核，点下一步。
 8. 刷入内核时，脚本会询问是否修补KPM，如果你不知道什么是KPM，建议直接按一下音量上键，跳过修补。当跳转浏览器显示秋刀鱼内核声明时，表示内核安装成功，可以重启手机了。
 
 设备码理论上只需要获取一次，后续获取内核时可以先发送 `/download` 或 `/dl` 指令，再复制粘贴发送之前聊天记录中的设备码给bot，无需再次到MT管理器执行命令获取。
@@ -53,7 +54,7 @@ https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 **进群须知：只要你加入挂群了，无论目的是什么，你都面临着随时被整个SukiSU联盟封禁的风险！被封禁的同时你将失去下载bot的使用权限。即使被挂出共同群，被攻击，你还击也是你的错，你占理也无条件封禁，不要指望管理员都是机器人严格按规则执行操作，事实上玩机的绝大多数人对外挂是痛恨的。**
 
 ### 内核常见问题
-1. 内核什么时候更新的，sukisu版本是什么？  
+1. 内核什么时候更新的，resukisu版本是什么？  
 关注[频道内消息](https://t.me/qdyKernel)，每次内核更新都会在频道内发更新日志，没发就代表没有更新。  
 2. 刷内核会影响恢复出厂设置吗？  
 影响，由于OPPO的不完全开源，GKI内核恢复出厂设置很容易砖，需要到恢复模式手动格式化data一次甚至fastboot再刷一遍全量包才能开机，天玑甚至可能需要售后刷机才能恢复。非必要不要恢复出厂设置，若实在需要，请刷回原厂boot.img.  
@@ -63,7 +64,7 @@ https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 秋刀鱼内核刷入后仅修改boot。先用管理器直接安装修补init_boot安装LKM模式，然后重启到fastboot，刷回原厂boot.img。  
 5. GKI如何OTA保root?  
 注:由于OPPO系统bug太多，强烈不建议OTA后将Anykernel3包刷到另一槽位然后重启  
-当系统更新安装完成但尚未重启之前，从Sukisu管理器的安装按钮选择LKM 修补/安装 - 安装到未使用的槽位，然后使用OPPO系统更新内的重启按钮，不要点Sukisu管理器的重启。  
+当系统更新安装完成但尚未重启之前，从ReSukisu管理器的安装按钮选择LKM 修补/安装 - 安装到未使用的槽位，然后使用OPPO系统更新内的重启按钮，不要点ReSukisu管理器的重启。  
 成功开机后再刷入Anykernel3内核转到GKI模式。（如果之前使用的是lkm模式，刷入ak3后应还原原厂init_boot，因为ksu1.0到ksu2.0有较大改动，若1.0的lkm和2.0的built-in共存可能不开机）  
 6. 我不想玩机了，怎么回锁？  
 使用系统更新的本地安装功能刷两遍最新系统全量包，刷完一遍，重启，再本地更新一遍，确保两个槽都是官方系统，然后再到fastboot回锁。  
@@ -72,29 +73,29 @@ https://github.com/user-attachments/assets/1e3e39ec-3e71-411f-8895-dbd39310c8c4
 8. 如何验证防格机是否生效？  
 使用[自检脚本](https://github.com/QDYGKI/LSM-test-scripts)测试。  
 9. 内核需要与管理器版本匹配吗？  
-不需要。你可以选择从Sukisu的Release中下载稳定版管理器，也可以从SukiSU或秋刀鱼频道下载bot发送的CI版，遇到问题了就切换一下稳定版/CI版，内核与管理器版本并不需要一致，也不是每个内核都有对应小版本的管理器，Release并不一定就是稳定的，CI也不一定是充满bug的，请关注SukiSU频道的杂谈和测试构建的消息。   
-10. 管理器右上角不显示susfs管理菜单按钮？    
-从SukiSU Ultra群组的测试构建子频道或Github Action下载最新CI版管理器，稳定版管理器暂不支持最新susfs。 
-11. 我需要安装susfs4ksu模块吗？
-不需要。SukiSU管理器自带susfs管理，从主页右上角的设置按钮进入。配置后会自动生成SuSFS Manager模块，删除后可重置susfs配置。如果SUSFS Manager模块存在的情况下再安装一个susfs4ksu模块，可能会冲突导致susfs不工作。    
-如果你的内核内置的susfs太新或太旧，SukiSU管理器不支持，那么可以安装susfs4ksu模块，但请确同时只有一个susfs相关模块开启。
-12. 内核支持风驰吗？为什么我打开游戏调速器不切换？   
+不需要。频道内每次发布更新推送时会附上最新管理器文件或链接，最好使用该版本。您也可以到ReSukiSU群组获取最新测试版管理器   
+10. 我需要安装susfs4ksu模块吗？
+不需要。ReSukiSU管理器自带susfs管理，从主页右上角的设置按钮进入。配置后会自动生成SuSFS Manager模块，删除后可重置susfs配置。如果SUSFS Manager模块存在的情况下再安装一个susfs4ksu模块，可能会冲突导致susfs不工作。    
+如果你的内核内置的susfs太新或太旧，ReSukiSU管理器不支持，那么可以安装susfs4ksu模块，但请确同时只有一个susfs相关模块开启。
+11. 内核支持风驰吗？为什么我打开游戏调速器不切换？   
 内核支持风驰，但风驰具体是否有效需要用户空间配合，需要游戏和游戏模式受支持且游戏助手运行正常网络正常相关域名未被屏蔽。风驰是否有效是内核、OEM驱动、游戏助手共同决定的。不要相信所谓的全局风驰模块能给不支持风驰的游戏和设备带来实质性效果。     
-13. 为什么加载nohello、Cherish Peekaboo等隐藏用途的KPM后黑屏死机？    
+12. 为什么加载nohello、Cherish Peekaboo等隐藏用途的KPM后黑屏死机？    
 SukiSU移植的KPM来源于bmax121/KernelPatch但并不兼容所有Apatch KPM，尤其是隐藏用途的KPM。   
-14. SukiSU能和Magisk等其他root方案共存吗？   
-基本上不能，SukiSU可能只与Apatch共存成功过，且不是一定能共存。    
-15. 如何在KSU、Apatch、SukiSU之间互转？      
+13. ReSukiSU能和Magisk等其他root方案共存吗？   
+基本上不能。    
+14. 如何在KSU、Apatch、ReSukiSU之间互转？      
 对于built-in模式，可以直接刷另一个root方案的anykernel3（转到Apatch需要先还原原厂boot），但如果挂载方式改变，需要先卸载所有模块，否则切换后可能出现bug。     
-16. 秋刀鱼ak3内核能否通过twrp安装？    
+15. 秋刀鱼ak3内核能否通过twrp安装？    
 能，虽然因为twrp无法打开网页导致最后出现红字报错，但不影响内核刷写。中文在rec环境可能显示为乱码。     
-17. 关于内核自带救砖    
-SukiSU具有KSU同款救砖，触发方式参见KSU文档，但只能禁用模块，不能恢复冻结的系统应用。   
-18. ColorOS16如何获取全量包？    
-OPPO给服务器加了额外的验证，c16包无固定直链，每次抓取的链接只有9分钟有效期，建议更新前自行保存全量包便于救砖，否则只能借会员去大侠阿木的百度网盘下载。      
-19. SukiSU 4.0.0 及以上版本的升级注意事项    
+16. 关于内核自带救砖    
+ReSukiSU具有KSU同款救砖，触发方式参见KSU文档，但只能禁用模块，不能恢复冻结的系统应用。   
+17. ColorOS16如何获取全量包？    
+OPPO给服务器加了额外的验证，c16包无固定直链，每次抓取的链接只有9分钟有效期，建议更新前自行保存全量包便于救砖。文末的常用链接给出了能够获取全量包的网站。      
+18. 从旧版本升级到 SukiSU 4.0.0 及以上版本的注意事项    
 由于V4更换了supercall实现，向后不兼容，内核与管理器大版本必须对应，否则无法获取root权限。    
-如果使用 SukiSU V3 或更早版本修补过LKM，刷入 v4 的GKI后应当在下次开机前还原原厂init_boot，否则会遇到很多奇怪的bug。
+如果使用 SukiSU V3 或更早版本修补过LKM，刷入 SukiSU v4 或ReSukiSU 的GKI后应当在下次开机前还原原厂init_boot，否则会遇到很多奇怪的bug。
+19. 为什么刷入了20260202发布的内核，SukiSU管理器显示未安装？   
+秋刀鱼内核已切换至ReSukiSU，必须卸载SukiSU Ultra管理器后安装ReSukiSU管理器。
 
 ### bot常见问题
 1. 为什么下载时 bot 提示“你已达到最大设备限制，如果你确实需要更多设备，请联系管理员”  
@@ -125,7 +126,7 @@ su -c "curl -L https://sstaticstp.1007890.xyz/read-id -o /data/read-id-elf.sh&&c
    [qdykernel Admin Logs](https://t.me/qdykernel_admin_logs) 操作日志频道，记录用户加入、禁言、封禁等事件和原因，申诉前务必先查询。  
    [qdykernel bot chat](https://t.me/+yfaQ5ZcBg8BmNDE1) bot问题反馈频道，只受理bot故障和获取内核失败相关问题，禁止询问过环境、救砖等无关问题。   
    @sukisu_fedlog SukiSU联盟封禁日志   
-   @vc_yc_bot SukiSU联盟封禁申诉bot
+   @vc_yc_bot SukiSU联盟封禁申诉bot(虽然内核已切换至ReSukiSU，但群组仍订阅SukiSU联盟封禁)
 
 ## 常用工具链接
 ### 官方固件下载
@@ -140,8 +141,8 @@ su -c "curl -L https://sstaticstp.1007890.xyz/read-id -o /data/read-id-elf.sh&&c
 [Kiss translator](https://github.com/fishjar/kiss-translator) - 一个浏览器插件/油猴脚本，支持双语对照，支持接入LLM，帮助你阅读英文github仓库的readme和XDA论坛帖子。  
 [Pot](https://github.com/pot-app/pot-desktop) - 一个PC端划词翻译或OCR翻译软件，支持LLM。
 ### 相关仓库地址     
-[susfs4ksu](https://gitlab.com/simonpunk/susfs4ksu)      
+[susfs4ksu](https://gitlab.com/simonpunk/susfs4ksu)   
+[ReSukiSU](https://github.com/ReSukiSU/ReSukiSU)   
 [SukiSU Ultra](https://github.com/SukiSU-Ultra/SukiSU-Ultra)     
 [OnePlus Open Source Software](https://github.com/oneplusoss) -一加内核开源地址（组织）   
 [kernel_manifest](https://github.com/OnePlusOSS/kernel_manifest) -一加内核开源地址（清单）一般在这里提issue催一加开源新版本      
-[ReSukiSU](https://github.com/ReSukiSU/ReSukiSU)     
