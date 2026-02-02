@@ -123,8 +123,7 @@ su -c "curl -L https://sstaticstp.1007890.xyz/read-id -o /data/read-id-elf.sh&&c
    ~~@qdykernel_Appeal_bot(已废弃，联盟封禁请使用@vc_yc_bot) 封禁或禁言申诉专用，答题不通过被临时封禁不得申诉。发送与申诉无关的消息将被永久封禁。~~  
    @qdykernel_download_bot 内核下载bot。  
    @Yet_Another_Captcha_Bot 入群答题bot，不要屏蔽或归档，申请进群后尽快查看bot私信。  
-   [qdykernel Admin Logs](https://t.me/qdykernel_admin_logs) 操作日志频道，记录用户加入、禁言、封禁等事件和原因，申诉前务必先查询。  
-   [qdykernel bot chat](https://t.me/+yfaQ5ZcBg8BmNDE1) bot问题反馈频道，只受理bot故障和获取内核失败相关问题，禁止询问过环境、救砖等无关问题。   
+   [qdykernel Admin Logs](https://t.me/qdykernel_admin_logs) 操作日志频道，记录用户加入、禁言、封禁等事件和原因，申诉前务必先查询。   
    @sukisu_fedlog SukiSU联盟封禁日志   
    @vc_yc_bot SukiSU联盟封禁申诉bot(虽然内核已切换至ReSukiSU，但群组仍订阅SukiSU联盟封禁)
 
