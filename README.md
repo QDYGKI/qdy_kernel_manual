@@ -1,8 +1,8 @@
 # 秋刀鱼内核用户手册  
 
 ---
-**通知：2026年2月2日起，bot下载的内核由SukiSU Ultra切换至ReSukiSU，请使用频道内给出的最新管理器，并查看[ReSukiSU官网](https://resukisu.github.io/)或[Telegram频道](https://t.me/ReSukiSU)了解详情。ReSukiSU在用户操作上与SukiSU类似，切换后无需重新配置授权应用或重新安装模块。遇到问题请勿到SukiSU Ultra反馈。**
-**通知2：2026年10月4日起，ReSukiSU更名为BakaSU，频道地址已更新 [Telegram频道](https://t.me/BakaSU_Grp) 。**
+**通知：2026年2月2日起，bot下载的内核由SukiSU Ultra切换至ReSukiSU，请使用频道内给出的最新管理器，并查看[ReSukiSU官网](https://resukisu.github.io/)或[Telegram频道](https://t.me/ReSukiSU)了解详情。ReSukiSU在用户操作上与SukiSU类似，切换后无需重新配置授权应用或重新安装模块。遇到问题请勿到SukiSU Ultra反馈。** \
+**通知2：2026年10月4日起，ReSukiSU更名为BakaSU。只需下载新的BakaSU管理器，使用该管理器刷入最新BakaSU内核并重启即可完成迁移，管理器无需卸载重装。BakaSU频道地址已更新 [Telegram频道](https://t.me/BakaSU_Grp) 。**
 
 ## 秋刀鱼内核适用范围  
 - **品牌**：一加、真我  
